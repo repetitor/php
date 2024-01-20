@@ -1,0 +1,21 @@
+{
+  "name": "va/php",
+  "description": "get balance",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Viktar Akulenka",
+      "email": "viktar.akulenka@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "vlucas/phpdotenv": "^5.3",
+    "monolog/monolog": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
